@@ -11,7 +11,6 @@ private let flowerColors: [Color] = [
 ]
 private let leafColors: [Color] = [gardenGreen, Color(red: 0.58, green: 0.66, blue: 0.43)]
 
-// Save random data in an array, like the teacher's PathData array.
 private struct PlantData {
     var isFlower: Bool
     var color: Color
@@ -60,7 +59,7 @@ private struct CountdownGardenPage: View {
     @State private var timeRemaining = 20
     @State private var timerIsRunning = false
 
-    // The same one-second timer pattern as the teacher's example.
+    
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
     var body: some View {
