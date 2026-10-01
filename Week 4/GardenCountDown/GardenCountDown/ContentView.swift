@@ -187,7 +187,7 @@ private struct CountdownGardenPage: View {
     }
 }
 
-// Four ellipse paths around a central circle.
+
 private func drawFlower(in context: GraphicsContext, center: CGPoint,
                         radius: Double, color: Color, angle: Double) {
     var local = context
